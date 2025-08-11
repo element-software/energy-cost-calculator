@@ -18,6 +18,9 @@ export default function Home() {
             <p>
               Iqbal Ibrahim &copy; {new Date().getFullYear()}
             </p>
+            <a href="https://linkedin.com/in/iqbalibrahim" target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a>
             <a href="https://github.com/elementsoftware" target="_blank" rel="noopener noreferrer">
               GitHub
             </a>

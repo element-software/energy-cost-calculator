@@ -1,0 +1,44 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer > should render the component successfully 1`] = `
+<body>
+  <div>
+    <footer
+      class="mt-10 text-center text-sm text-foreground/70 gap-3 flex flex-row justify-center"
+    >
+      <p>
+        Iqbal Ibrahim © 
+        2025
+      </p>
+      <a
+        href="https://linkedin.com/in/iqbalibrahim"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        LinkedIn
+      </a>
+      <a
+        href="https://github.com/elementsoftware"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        GitHub
+      </a>
+      <a
+        href="https://iqbalibrahim.dev"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Personal
+      </a>
+      <a
+        href="https://element-software.co.uk"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Business
+      </a>
+    </footer>
+  </div>
+</body>
+`;
