@@ -46,7 +46,8 @@ energy-cost-calculator/
 │   │   └── calculator/
 │   │       ├── calculator.tsx  # Main calculator component
 │   │       ├── types.ts        # TypeScript type definitions
-│   │       └── utils.ts        # Calculation utility functions
+│   │       └── __tests__/
+│   │           └── calculator.spec.tsx  # Test file for calculator component
 │   └── utils/
 │       └── energy.ts           # Core energy calculation logic
 ├── public/                     # Static assets
@@ -63,7 +64,6 @@ energy-cost-calculator/
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS v4 with glassmorphism effects
 - **Testing**: Vitest + React Testing Library
-- **Build Tool**: Vite (via Vitest)
 - **Package Manager**: npm
 
 ## Getting Started
@@ -76,7 +76,7 @@ energy-cost-calculator/
 ```bash
 # Clone the repository
 git clone <your-repo-url>
-cd energy-portfolio
+cd energy-cost-calculator
 
 # Install dependencies
 npm install
@@ -109,7 +109,7 @@ npm run lint         # Run ESLint
 The project includes comprehensive testing:
 
 - **Unit Tests**: Core calculation functions in `src/utils/energy.spec.ts`
-- **Component Tests**: React component behavior in `src/components/calculator/calculator.spec.tsx`
+- **Component Tests**: React component behavior in `src/components/calculator/__tests__/calculator.spec.tsx`
 - **Test Coverage**: Built-in coverage reporting with Vitest
 
 Run tests with:
