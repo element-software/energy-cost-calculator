@@ -30,6 +30,6 @@ describe("CostBreakdownView", () => {
     };
     // @ts-expect-error forcing null in props
     const { container } = render(<CostBreakdownView {...props} />);
-    expect(container).toBeNull();
+    expect(container).toBeEmptyDOMElement();
   });
 });
