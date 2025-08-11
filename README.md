@@ -2,6 +2,8 @@
 
 A modern, responsive web application built with Next.js that helps users calculate and compare energy costs for gas and electricity tariffs. Features a clean, glassy UI with Tailwind CSS and comprehensive testing setup.
 
+You can see the [live demo](https://energy.element-software.co.uk/)
+
 ## Features
 
 - **Dual Fuel Calculator**: Calculate costs for both gas and electricity
